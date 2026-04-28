@@ -73,6 +73,10 @@ const Experience = () => {
                 </span>
               ))}
             </div>
+            <div className=' text-xl font-semibold mt-8 mb-4 text-gray-300'>
+              <h1 className=''>To be continued...</h1>
+
+            </div>
           </div>
 
         </div>

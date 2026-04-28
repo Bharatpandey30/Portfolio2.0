@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     // RETURN → Whatever is inside this will be displayed in the browser
 
-    <nav className='flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20'>
+    <nav className='flex  flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20'>
       {/* 
         <nav> = Semantic HTML tag used for navigation bars (better for SEO & accessibility)
          */}
 
-      <span className="text-xl font-bold tracking-wide">
+      <span className="text-xl font-bold text-transparent tracking-wide">
         {/* 
           <span> = Inline element used for small text or branding
         */}
@@ -35,7 +35,7 @@ const Navbar = () => {
             <a> = Anchor tag (used for navigation links)
             href='' → Destination (currently empty, will link later)
           */}
-          <li className='text-md transition-all duration-300 p-1 md:p-0'>
+          <li className='text-2xl transition-all duration-300 p-1 md:p-0'>
             {/*
               <li> = List Item (each menu option)
             */}
@@ -44,19 +44,19 @@ const Navbar = () => {
         </a>
 
         <a href='Experience'>
-          <li className='text-md transition-all duration-300 p-1 md:p-0'>
+          <li className='text-2xl  transition-all duration-300 p-1 md:p-0'>
             Experience
           </li>
         </a>
 
         <a href='Projects'>
-          <li className='text-md transition-all duration-300 p-1 md:p-0'>
+          <li className='text-2xl transition-all duration-300 p-1 md:p-0'>
             Projects
           </li>
         </a>
 
         <a href='Contact'>
-          <li className='text-md transition-all duration-300 p-1 md:p-0'>
+          <li className='text-2xl transition-all duration-300 p-1 md:p-0'>
             Contact
           </li>
         </a>
